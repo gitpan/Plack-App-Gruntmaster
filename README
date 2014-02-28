@@ -1,0 +1,34 @@
+Gruntmaster-Page version 5999.000_001
+=====================================
+
+INSTALLATION
+
+You don't need to install this distribution to use it. Just install
+its prerequistes, edit the script named 'run' to your liking, and
+execute it.
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Apache2::Authen::Passphrase
+  Apache2::AuthzCaps
+  CSS::Minifier::XS
+  File::Slurp
+  Gruntmaster::Data
+  HTML::Template::Compiled
+  HTTP::Negotiate
+  JavaScript::Minifier::XS
+  JSON
+  Log::Log4perl
+  LWP::UserAgent
+  Plack
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2014 by Marius Gavrilescu
+
+This library is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.

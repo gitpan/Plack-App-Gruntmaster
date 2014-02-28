@@ -1,0 +1,6 @@
+Contest start time: <%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{start}; %><br>
+Contest end time:   <%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{end};   %><p>
+
+<tmpl_if started><a href="pb/">Problems</a><br>
+<a href="log/">Job log</a><br>
+<a href="log/st">Standings</a></tmpl_if>

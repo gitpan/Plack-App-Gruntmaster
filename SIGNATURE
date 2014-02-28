@@ -1,0 +1,86 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 78e50e186b04c8fe1defaa098f1c192181b3d837 COPYING
+SHA1 4017947849a52699505bd8f394571411c0591ba7 Changes
+SHA1 a882a029bce08dad6b69008bb9d0ccc5120889e3 MANIFEST
+SHA1 381d835c7d5a306cb60093c05aed07a673f79996 META.json
+SHA1 548a91d3c45a2c7d631a2358de26641c5f746fc5 META.yml
+SHA1 7ee2847c10721ab22df11fb430f3d4dc8d70e80a Makefile.PL
+SHA1 ce23ba6844c95bb99c99ae382d8b87f95a591516 README
+SHA1 ebc5020a9dcc8ce335631be4021d5b0177f6095b a/account.en
+SHA1 b10541f58b37ec70f9452032889cc6b6ce06cfe7 a/account.en.title
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 a/index.en
+SHA1 2c276ebcd21102bf17aec6a26eb8117e3dd6fb13 a/index.en.title
+SHA1 af62865d4566f34eeb39638cf2329785460ae270 app.psgi
+SHA1 5ffdb513c12ee939a89de5c209fafa08925d4ed1 css/custom.css
+SHA1 84700caa5d244e4f4713eccd13b45e7cce26c24f css/orig/cerulean.css
+SHA1 a8b84983ccc3f6a92406efc71e1a51400499ec24 css/orig/cosmo.css
+SHA1 633316d0501c8b33212cd0fd625984c385db6f4b css/orig/cyborg.css
+SHA1 4b9d2e1c4be9d0e29f7a1a69e114809fe6e8846c css/orig/slate.css
+SHA1 d8b48bdd6091568919d6152aaef396978f22a27d css/themes/cerulean.css
+SHA1 8850c0b3ee09a8475d8d348fc21e2f57991617f3 css/themes/cosmo.css
+SHA1 352921b48351db4ef5cdde95f8a79c07bea92ace css/themes/cyborg.css
+SHA1 8db008dcdd10d57651597d67ed987a58691a0ef4 css/themes/slate.css
+SHA1 d22303269ef67b9742707834140f71cb9dfa221c js/00-zepto.js
+SHA1 16e4e285447c611724d23c54b859e1103105c0e9 js/10-bootstrap-dropdown.js
+SHA1 959d14c4f7d618eb7343ebe3876cba415299483b js/90-custom.js
+SHA1 8ddba8a25dd9cdb1afb37fef331f1c0345df281a js/90-form.js
+SHA1 958dc6afb2ed5e48a0ec87f2832f75801003ec2b lib/Gruntmaster/Page/Base.pm
+SHA1 55c36c6895620515bd378c8f5f0074c30cbbd42f lib/Gruntmaster/Page/CSS.pm
+SHA1 7ed293882ff336c4ced9f981620386598e8c1938 lib/Gruntmaster/Page/Generic.pm
+SHA1 72acc82593acf19ba3ab211fc8c273d490b57616 lib/Gruntmaster/Page/JS.pm
+SHA1 0d3409d01a29ce7fdc5e3dc9f63eb0cf8e51b683 lib/Gruntmaster/Page/Log.pm
+SHA1 be4e1564fb531f492fe0f6dc1bc2e721ed52e826 lib/Gruntmaster/Page/Passwd.pm
+SHA1 65450408adfa906f6bf650e0759eb5f9e71350f1 lib/Gruntmaster/Page/Pb/Entry.pm
+SHA1 22f27d08a0889e00dcef6a0b6ce8f24243d423a4 lib/Gruntmaster/Page/Register.pm
+SHA1 980aaaf7d7ecdb6f7dd8335ed2e9d0d6f8a65756 lib/Gruntmaster/Page/Src.pm
+SHA1 4511528b73f94f38647d6ece3c6ab94a473deee0 lib/Gruntmaster/Page/St.pm
+SHA1 ca07a837f4d20991351b77693db44a63662fec91 lib/Gruntmaster/Page/Submit.pm
+SHA1 bfcb046aad381e40c59d683e83d53bd31c806cd5 lib/Plack/App/Gruntmaster.pm
+SHA1 ecaea857007793383ea0820cd9db24acc53f870c log.conf
+SHA1 de58cc0782ff88818a734957d6ee366364be5ba3 run
+SHA1 a61b9e663e85c7ee6ffd424ba76c4d69fa8f4fb0 static/gm.css
+SHA1 f96b2807da1aa854448dbe9fc02e2c8c52cc2e6e t/Gruntmaster-Page.t
+SHA1 5196a27e734fc484260a415a7c3df97f4a3902fd t/mech.t
+SHA1 44396933ba8fa1452346c394c428fbc84a71b273 tmpl/ct.en
+SHA1 8b02fe2518865365080785e38fb649b3b9f2ef96 tmpl/ct_entry.en
+SHA1 776a09d7d34180b7111e39e162c6481d60e53817 tmpl/footer.en
+SHA1 15d2fa2b8847611ee26bf80abf913fe78f573cd3 tmpl/header.en
+SHA1 0dd3415162215ef6ab10d5f0f7549f8f8de7b866 tmpl/log.en
+SHA1 f37743adc5d86b672668e2e14d2d6ce02ba36d87 tmpl/log_entry.en
+SHA1 fc8c1d561c358bded0bd3873f4945bc31d14b527 tmpl/pb.en
+SHA1 57e7926da49b4907a5c7a492ba58bc5239720f2f tmpl/pb_entry.en
+SHA1 ddbfd68bb57f3e85285d262efc98fd788cf207f4 tmpl/st.en
+SHA1 11d2277bec14d254b3c85492f51794f204d276f0 tmpl/us.en
+SHA1 43bff3c1a7a5892467e361dcf2e83018a9cac111 tmpl/us_entry.en
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBCgAGBQJTEQaLAAoJEMoENb5ewbNitGYP/0AtAPZwROhlE55XCU0I/t6S
+HnMRWhv9Fc9LhI9pSdyCGa0x1XRMhAUKaAWglOanvyLaEvRibfDbhSG467uOzgBT
+Dmi1w96ScAHV16zrsGpQ9UIibQxcKXV9H8yHd3xLqQzmcOyDdNVrvCVJoWe3iIOZ
+46dOkCmxScGKdJWx3iQgc1p6NaoIxdNnOYFpkTfnBaFp22gsn4E5Nq5gmk+bE353
+Rr4HbftlTsFbeCFef+QVVZoYXJrSx6zMqp2l3yJ44gIa/ES8nRVyjB5OTGNXIlnz
+HujoCG4guC1n/iBBcNLIhHc0QPwuOeui3LTmShw4Qj1vYyfX26jxUXLZjQGOQxoF
+AwKRd6GtJOsSI7undSg1B8qJk1quy0FhK1VnMwyTYsr6gCgUmdsnbGDPiMVsLy8N
+8BQ6TKxNeq9qm5N2vKD+rVmE4tW584fCcSYARkbuFEqSOK1hqIqjlE3GE6hzjNSL
+mjNE87LzEK2/cYVgxSXK0ikn36B7BfWDm6MD7MxmYLSBQYP77dxj0IF8YfDA+8/k
+SSkjSHaHCsIQgUBefp7wvXXCTR0qEaJtbXzuC/sU2YD5yK2xoxV6vJtYda8i8Wmi
+qCQKvVT2VHOBrSt9XMKoygvU/5fZv7pTqOvAMAUYWEKYVFCz/S9aukHVbJovYQWJ
+VudHBOTQ9/m0/ETBZHzw
+=E1qv
+-----END PGP SIGNATURE-----

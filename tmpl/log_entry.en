@@ -1,0 +1,15 @@
+<tmpl_if errors>
+<h2>Compiler output</h2>
+<pre><tmpl_var errors></pre>
+</tmpl_if>
+
+<tmpl_if results>
+<h2>Results</h2>
+<table border class="table table-border table-striped">
+<thead>
+<tr><th>Test number<th>Result<th>Time
+<tbody>
+<tmpl_loop results><tr><td><tmpl_var id><td class="r<tmpl_var result>"><tmpl_var result_text><td><%perl __OUT__ sprintf "%.4fs", __CURRENT__->{time}; %>
+</tmpl_loop>
+</table>
+</tmpl_if>

@@ -1,0 +1,4 @@
+<h1><tmpl_var name></h1>
+Town: <tmpl_var town><br>
+University: <tmpl_var university><br>
+Level: <tmpl_var level>

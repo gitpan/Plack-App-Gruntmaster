@@ -1,0 +1,57 @@
+h1#title{
+	font-weight: bold;
+	text-align: center;
+	font-size: 3em !important;
+}
+
+footer{
+	width: 60em;
+	margin: auto;
+	margin-top: 6em;
+	white-space: pre-wrap;
+	color: #777;
+}
+
+#logo {
+	margin: 5em auto 2em;
+	display: block;
+}
+
+h1 {
+	font-size: 2em !important;
+}
+
+.txtstuff {
+    overflow: hidden;
+}
+
+.hiddendiv {
+    display: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* future version of deprecated 'word-wrap' */
+}
+
+a.thumbnail {
+	border: none !important;
+}
+
+div.container-fluid {
+	padding: 0 15px;
+}
+
+.list-group-item, .form-control {
+	max-width: 30em;
+}
+
+div#result{
+	text-align: center;
+}
+
+a.dropdown-toggle{
+	cursor: pointer;
+}
+
+.table-fixed{
+	table-layout: fixed;
+}

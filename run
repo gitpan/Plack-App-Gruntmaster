@@ -1,0 +1,5 @@
+#!/bin/bash
+export PURGE_HOST=gm.ieval.ro
+export AAP_ROOTDIR=us
+export PLACK_ENV=deployment
+exec start_server --port=8081 -- plackup -s Starlet -Ilib -L Delayed

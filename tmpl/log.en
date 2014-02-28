@@ -1,0 +1,16 @@
+<table border class="table table-bordered table-striped">
+<thead>
+<tr><th>ID<th>Problem<th>Date<th>Size<th>User<th>Result
+<tbody>
+<tmpl_loop log><tr><td><a href="job/<tmpl_var id>"><tmpl_var id></a>
+<td><a href="../pb/<tmpl_var problem>"><tmpl_var name></a>
+<td><tmpl_var date>
+<td><a href="src/<tmpl_var id>.<tmpl_var extension>"<tmpl_if private> data-private</tmpl_if>><tmpl_var size></a>
+<td><a href="/us/<tmpl_var user>"><tmpl_if user_name><tmpl_var user_name><tmpl_else><tmpl_var user></tmpl_if></a><td class="r<tmpl_var result>"><tmpl_var result_text>
+</tmpl_loop>
+</table>
+
+<ul class="pager">
+<tmpl_if prev><li class="previous"><a href="<tmpl_var prev>">Previous</a></tmpl_if>
+<tmpl_if next><li class="next"><a href="<tmpl_var next>">Next</a></tmpl_if>
+</ul>

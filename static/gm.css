@@ -1,0 +1,182 @@
+html,body{
+	background-color: black;
+	color: white;
+}
+
+div#title,div#subtitle{
+	font-family: "Liberation Mono","DejaVu Sans Mono","Lucida Console",monospace;
+	font-weight: bold;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+div#title{
+	font-size: 7em;
+}
+
+div#subtitle{
+	font-size: 3em;
+}
+
+div#result{
+	padding: 0.5em;
+	text-align: center;
+/*	border: thin dotted white; */
+}
+
+textarea{
+	width: 100%;
+	height: 10em;
+	display: block;
+}
+
+table,td,th{
+	text-align: center;
+	border-collapse: collapse;
+	border: thin dotted white;
+	padding: 0.1em;
+}
+
+table{
+	width: 98%;
+	margin: 1%
+}
+
+table.upsstats{
+	width: auto;
+	margin: 1em auto;
+}
+
+table.upsstats table, table.upsstats table tr, table.upsstats table th, table.upsstats table td { 
+	border-width: 0;
+	width: auto;
+}
+
+a:link,a:visited{
+	color: white;
+}
+
+table.alternating>tbody>tr:nth-child(odd){
+	background-color: #222;
+}
+
+span.i{
+	color: #F00;
+}
+
+span.Eval{
+	color: #0F0;
+}
+
+div.centertext{
+	text-align: center;
+}
+
+h1.nomargintop{
+	margin-top: 0;
+}
+
+span.yes{
+	color: #0F0;
+}
+
+span.no{
+	color: #F00;
+}
+
+span.lowyes{
+	color: #8F8;
+}
+
+td.size{
+	color: #EEE;
+	font-size: 0.9em;
+}
+
+ul.stats{
+	margin:0;
+	padding:0;
+}
+
+ul.stats li{
+	display: inline-block;
+	margin-right: 1em;
+}
+
+a.nounderline:link{
+	text-decoration: none;
+}
+
+td.r0{
+	color: green;
+}
+
+td.r10{
+	color: gold;
+}
+
+td.r1{
+	color: darkred;
+}
+
+td.r3{
+	color: aqua;
+}
+
+td.r-1{
+	color: red;
+}
+
+table.sample, table.sample th, tample.sample td{
+	width: auto;
+	vertical-align: top;
+	margin: 0;
+	padding: 0.2em 1em;
+	text-align: left !important;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+
+nav li a{
+	padding: 0.5em;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li{
+	margin: 0.5em;
+	background-color: #222;
+	display: inline-block;
+	border: thin dotted white;
+}
+
+nav li:hover{
+	background-color: #444;
+}
+
+footer{
+	width: 60em;
+	margin: auto;
+	margin-top: 6em;
+	white-space: pre-wrap;
+	font-size: 75%;
+	color: #777;
+}
+
+a.disabled{
+	pointer-events: none;
+	text-decoration: none;
+}
+
+#admin{
+	font-size: 75%;
+	color: #777;
+	position: absolute;
+	top: 1px;
+	right: 1px;
+}

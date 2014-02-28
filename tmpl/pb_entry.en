@@ -1,0 +1,28 @@
+<div class="row">
+<div class="col-md-9">
+<tmpl_var ESCAPE=0 statement>
+</div>
+
+<div class="col-md-3">
+<dl>
+<dt>Author</dt> <dd><tmpl_var author></dd>
+<dt>Owner</dt> <dd><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a></dd>
+</dl>
+
+<tmpl_if cansubmit>
+<h1>Submit solution</h1>
+<form action="<tmpl_var id>/submit" method="POST" enctype="multipart/form-data" role="form">
+<input type="hidden" name="problem" value="<tmpl_var id>">
+<tmpl_if_defined contest><input type="hidden" name="contest" value="<tmpl_var contest>"></tmpl_if_defined>
+
+<div class="form-group"><label for="prog">File:</label><input id="prog" name="prog" type="file"></div>
+<div class="form-group"><label for="source_code">Source code:</label> <textarea class="form-control" id="source_code" name="source_code"></textarea></div>
+<div class="form-group"><label for="prog_format">File format:</label><select id="prog_format" name="prog_format" class="form-control" required>
+<tmpl_loop formats><option value="<tmpl_var _>"><tmpl_var _></option>
+</tmpl_loop></select></div>
+
+<input type="submit" value="Submit job" class="btn btn-primary">
+</form>
+</tmpl_if>
+</div>
+</div>

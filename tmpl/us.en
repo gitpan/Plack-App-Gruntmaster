@@ -1,0 +1,2 @@
+<div class="list-group"><tmpl_loop us><a class="list-group-item" href="<tmpl_var id>"><tmpl_var name></a>
+</tmpl_loop></ol>

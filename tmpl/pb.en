@@ -1,0 +1,39 @@
+<tmpl_if beginner>
+<h2>Beginner</h2>
+<table border class="table table-bordered table-striped table-fixed">
+<thead><tr><th>Name<th>Author<th>Owner
+<tbody>
+<tmpl_loop beginner><tr><td><a href="<tmpl_var id>"><tmpl_var name></a><td><tmpl_var author><td><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a>
+</tmpl_loop>
+</table>
+</tmpl_if>
+
+<tmpl_if easy>
+<h2>Easy</h2>
+<table border class="table table-bordered table-striped table-fixed">
+<thead><tr><th>Name<th>Author<th>Owner
+<tbody>
+<tmpl_loop easy><tr><td><a href="<tmpl_var id>"><tmpl_var name></a><td><tmpl_var author><td><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a>
+</tmpl_loop>
+</table>
+</tmpl_if>
+
+<tmpl_if medium>
+<h2>Medium</h2>
+<table border class="table table-bordered table-striped table-fixed">
+<thead><tr><th>Name<th>Author<th>Owner
+<tbody>
+<tmpl_loop medium><tr><td><a href="<tmpl_var id>"><tmpl_var name></a><td><tmpl_var author><td><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a>
+</tmpl_loop>
+</table>
+</tmpl_if>
+
+<tmpl_if hard>
+<h2>Hard</h2>
+<table border class="table table-bordered table-striped table-fixed">
+<thead><tr><th>Name<th>Author<th>Owner
+<tbody>
+<tmpl_loop hard><tr><td><a href="<tmpl_var id>"><tmpl_var name></a><td><tmpl_var author><td><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a>
+</tmpl_loop>
+</table>
+</tmpl_if>

@@ -1,0 +1,21 @@
+<h1>Register</h1>
+<form action="/action/register" method="POST" class="jsform" role="form">
+<div class="form-group"><label for="r_username">Username</label><input type="text" class="form-control" id="r_username" name="username" required></div>
+<div class="form-group"><label for="r_password">Password</label><input type="password" class="form-control" id="r_password" name="password" required></div>
+<div class="form-group"><label for="r_confirm_password">Confirm password</label><input type="password" class="form-control" id="r_confirm_password" name="confirm_password" required></div>
+<div class="form-group"><label for="r_name">Full name</label><input type="text" class="form-control" id="r_name" name="name" required></div>
+<div class="form-group"><label for="r_email">Email</label><input type="email" class="form-control" id="r_email" name="email" required></div>
+<div class="form-group"><label for="r_phone">Phone</label><input type="tel" class="form-control" id="r_phone" name="phone" required></div>
+<div class="form-group"><label for="r_town">Town</label><input type="text" class="form-control" id="r_town" name="town" required></div>
+<div class="form-group"><label for="r_university">Institution</label><input type="text" class="form-control" id="r_university" name="university" required></div>
+<div class="form-group"><label for="r_level">Level</label><select id="level" name="level" class="form-control"> <option>Highschool</option> <option>Undergraduate</option> <option>Master</option> <option>Doctorate</option> <option>Other</option> </select></div>
+<input type="submit" class="btn btn-default" value="Submit">
+</form>
+
+<h1>Change password</h1>
+<form action="/action/passwd" method="POST" class="jsform" role="form">
+<div class="form-group"><label for="ch_password">Old password</label><input type="password" id="ch_password" name="password" class="form-control" required></div>
+<div class="form-group"><label for="ch_new_password">New password</label><input type="password" id="ch_new_password" name="new_password" class="form-control" required></div>
+<div class="form-group"><label for="ch_confirm_new_password">Confirm new password</label><input type="password" id="ch_confirm_new_password" name="confirm_new_password" class="form-control" required></div>
+<input type="submit" class="btn btn-default" value="Change password">
+</form>

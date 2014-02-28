@@ -1,0 +1,12 @@
+<table border class="table table-border table-striped">
+<thead>
+<tmpl_if problems><tr><th>Rank<th>User<tmpl_loop problems><th><tmpl_var _></tmpl_loop><th>Total
+<tmpl_else><tr><th>Rank<th>User<th>Score
+</tmpl_if>
+
+<tbody>
+<tmpl_loop st><tr><td><tmpl_var rank><td><a href="/us/<tmpl_var user>"><tmpl_if name><tmpl_var name><tmpl_else><tmpl_var user></tmpl_if></a>
+<tmpl_if problems><tmpl_loop scores><td><tmpl_var _>
+</tmpl_loop></tmpl_if><td><tmpl_var score>
+</tmpl_loop>
+</table>

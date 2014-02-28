@@ -1,0 +1,41 @@
+<tmpl_if running>
+<h1>Running contests</h1>
+<table border class="table table-bordered table-striped">
+<thead>
+<tr><th>Name<th>Start date<th>End date<th>Owner
+<tbody>
+<tmpl_loop running><tr><td><a href="<tmpl_var id>/"><tmpl_var name></a>
+<td><%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{start}; %>
+<td><%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{end};   %>
+<td><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a>
+</tmpl_loop>
+</table>
+</tmpl_if>
+
+<tmpl_if pending>
+<h1>Pending contests</h1>
+<table border class="table table-bordered table-striped">
+<thead>
+<tr><th>Name<th>Start date<th>End date<th>Owner
+<tbody>
+<tmpl_loop pending><tr><td><a href="<tmpl_var id>/"><tmpl_var name></a>
+<td><%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{start}; %>
+<td><%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{end};   %>
+<td><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a>
+</tmpl_loop>
+</table>
+</tmpl_if>
+
+<tmpl_if finished>
+<h1>Finished contests</h1>
+<table border class="table table-bordered table-striped">
+<thead>
+<tr><th>Name<th>Start date<th>End date<th>Owner
+<tbody>
+<tmpl_loop finished><tr><td><a href="<tmpl_var id>/"><tmpl_var name></a>
+<td><%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{start}; %>
+<td><%perl __OUT__ POSIX::strftime '%c', localtime __CURRENT__->{end};   %>
+<td><a href="/us/<tmpl_var owner>"><tmpl_if owner_name><tmpl_var owner_name><tmpl_else><tmpl_var owner></tmpl_if></a>
+</tmpl_loop>
+</table>
+</tmpl_if>

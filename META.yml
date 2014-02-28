@@ -1,0 +1,47 @@
+---
+abstract: unknown
+author:
+  - 'Marius Gavrilescu <marius@ieval.ro>'
+build_requires:
+  Test::More: '0'
+  Test::WWW::Mechanize::PSGI: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.133380'
+license: open_source
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Plack-App-Gruntmaster
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Apache2::Authen::Passphrase: '0'
+  Apache2::AuthzCaps: '0'
+  CSS::Minifier::XS: '0'
+  Carp: '0'
+  Digest::SHA: '0'
+  File::Slurp: '0'
+  Gruntmaster::Data: '0'
+  HTML::Template::Compiled: '0'
+  HTTP::Negotiate: '0'
+  JSON: '0'
+  JavaScript::Minifier::XS: '0'
+  LWP::UserAgent: '0'
+  List::Util: '0'
+  Log::Log4perl: '0'
+  POSIX: '0'
+  Plack::Builder: '0'
+  Plack::Request: '0'
+  constant: '0'
+  feature: '0'
+  parent: '0'
+  perl: '5.014000'
+  strict: '0'
+  warnings: '0'
+resources:
+  repository: https://git.ieval.ro/?p=plack-app-gruntmaster.git
+version: 5999.000_001
